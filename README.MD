@@ -4,7 +4,9 @@ This tool will generate a mnemonic and derive a Farmer Public Key and a number o
 This tool is standalone and does not require any preparation or installation to use.
 
 ## Usage
-The key generator is simple to use, either downloading the precompiled binaries or compile your own binary from source. To create a cold wallet, put the binary on a USB flash drive and bring it to a non-connected computer. Run the binary to generate a mnemonic and derive applicable public keys.
+The key generator is simple to use, either downloading the precompiled binaries or compile your own binary from source. To create a cold wallet, put the binary on a USB flash drive and bring it to a non-connected computer. Run the binary to generate a mnemonic and derive applicable public keys. Follow the prompts in the command line to generate a key. To copy from the command line in command prompt on windows, use `Ctrl+Shift+c`.
+
+If you choose to use a passphrase, ensure you do not forget it or else you will not be able to access the wallet when importing your mnemonic seed into the MMX client. The passphrase is not stored anywhere, so it is important to remember it.
 
 The mnemonic/private key are not stored anywhere on the system, but you will be given an option to export the public keys/addresses to a text file in the present working directory. You can write down the mnemonic on a piece of paper, then move the public key text file back to the USB for ease of use on your main computer.
 
